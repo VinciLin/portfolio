@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #000;
+    background: #323232;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -55,10 +55,10 @@
       width: 250px;
       height: 250px;
       background: url(../img/portrait.jpg);
-      background-size: cover;
+      background-size: 300px 300px;
       background-position: center;
       border-radius: 50%;
-      border: solid 5px #ff533d; }
+      border: solid 20px #ff533d; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -73,7 +73,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #000;
+    color: #323232;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -97,7 +97,7 @@
 
 body {
   background: #f7c331;
-  color: #000;
+  color: #323232;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -120,7 +120,7 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 400; }
+  font-weight: 550; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
@@ -170,10 +170,10 @@ main {
     width: 250px;
     height: 250px;
     background: url(../img/portrait.jpg);
-    background-size: cover;
+    background-size: 300px 300px;
     background-position: center;
     border-radius: 50%;
-    border: solid 5px #ff533d; }
+    border: solid 20px #ff533d; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1rem; }
@@ -215,9 +215,9 @@ main {
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
       background: #ff533d;
-      color: #000; }
+      color: #323232; }
       .boxes div:hover span {
-        color: #000; }
+        color: #323232; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -226,7 +226,7 @@ main {
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #ff533d;
-    color: #000; }
+    color: #323232; }
 
 .btn-dark {
   background: #271e02;
@@ -240,7 +240,7 @@ main {
   text-align: center;
   padding: 1rem;
   background: #ecb009;
-  color: #000;
+  color: #323232;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
